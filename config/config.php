@@ -20,7 +20,7 @@ class Config {
     }
 
     private function loadEnv() {
-        $envFile = dirname(__DIR__) . '/.env';
+        $envFile = '/home/p0zj4v5c6ih1/env/.env';
         
         if (!file_exists($envFile)) {
             throw new Exception('Archivo .env no encontrado');
